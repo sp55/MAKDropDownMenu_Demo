@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846B96281DAB33CA007E5326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B96271DAB33CA007E5326 /* main.m */; };
+		846B962B1DAB33CA007E5326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B962A1DAB33CA007E5326 /* AppDelegate.m */; };
+		846B962E1DAB33CA007E5326 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B962D1DAB33CA007E5326 /* ViewController.m */; };
+		846B96311DAB33CA007E5326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B962F1DAB33CA007E5326 /* Main.storyboard */; };
+		846B96331DAB33CA007E5326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B96321DAB33CA007E5326 /* Assets.xcassets */; };
+		846B96361DAB33CA007E5326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B96341DAB33CA007E5326 /* LaunchScreen.storyboard */; };
+		846B96411DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B96401DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.m */; };
+		846B964C1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B964B1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.m */; };
+		846B965C1DAB33DC007E5326 /* MAKDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B965B1DAB33DC007E5326 /* MAKDropDownMenu.m */; };
+		846B96621DAB34CA007E5326 /* mycase_nav_triangle_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846B965E1DAB34CA007E5326 /* mycase_nav_triangle_down@2x.png */; };
+		846B96631DAB34CA007E5326 /* mycase_nav_triangle_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846B965F1DAB34CA007E5326 /* mycase_nav_triangle_down@3x.png */; };
+		846B96641DAB34CA007E5326 /* mycase_nav_triangle_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846B96601DAB34CA007E5326 /* mycase_nav_triangle_up@2x.png */; };
+		846B96651DAB34CA007E5326 /* mycase_nav_triangle_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846B96611DAB34CA007E5326 /* mycase_nav_triangle_up@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846B963D1DAB33CA007E5326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846B961B1DAB33CA007E5326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846B96221DAB33CA007E5326;
+			remoteInfo = MAKDropDownMenu_Demo;
+		};
+		846B96481DAB33CA007E5326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846B961B1DAB33CA007E5326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846B96221DAB33CA007E5326;
+			remoteInfo = MAKDropDownMenu_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846B96231DAB33CA007E5326 /* MAKDropDownMenu_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAKDropDownMenu_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B96271DAB33CA007E5326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846B96291DAB33CA007E5326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846B962A1DAB33CA007E5326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846B962C1DAB33CA007E5326 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846B962D1DAB33CA007E5326 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846B96301DAB33CA007E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846B96321DAB33CA007E5326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846B96351DAB33CA007E5326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846B96371DAB33CA007E5326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B963C1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAKDropDownMenu_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B96401DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAKDropDownMenu_DemoTests.m; sourceTree = "<group>"; };
+		846B96421DAB33CA007E5326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B96471DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAKDropDownMenu_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B964B1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAKDropDownMenu_DemoUITests.m; sourceTree = "<group>"; };
+		846B964D1DAB33CA007E5326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B965A1DAB33DC007E5326 /* MAKDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKDropDownMenu.h; sourceTree = "<group>"; };
+		846B965B1DAB33DC007E5326 /* MAKDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKDropDownMenu.m; sourceTree = "<group>"; };
+		846B965E1DAB34CA007E5326 /* mycase_nav_triangle_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycase_nav_triangle_down@2x.png"; sourceTree = "<group>"; };
+		846B965F1DAB34CA007E5326 /* mycase_nav_triangle_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycase_nav_triangle_down@3x.png"; sourceTree = "<group>"; };
+		846B96601DAB34CA007E5326 /* mycase_nav_triangle_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycase_nav_triangle_up@2x.png"; sourceTree = "<group>"; };
+		846B96611DAB34CA007E5326 /* mycase_nav_triangle_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycase_nav_triangle_up@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846B96201DAB33CA007E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B96391DAB33CA007E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B96441DAB33CA007E5326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846B961A1DAB33CA007E5326 = {
+			isa = PBXGroup;
+			children = (
+				846B96251DAB33CA007E5326 /* MAKDropDownMenu_Demo */,
+				846B963F1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests */,
+				846B964A1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests */,
+				846B96241DAB33CA007E5326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846B96241DAB33CA007E5326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846B96231DAB33CA007E5326 /* MAKDropDownMenu_Demo.app */,
+				846B963C1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.xctest */,
+				846B96471DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846B96251DAB33CA007E5326 /* MAKDropDownMenu_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				846B96291DAB33CA007E5326 /* AppDelegate.h */,
+				846B962A1DAB33CA007E5326 /* AppDelegate.m */,
+				846B965D1DAB34CA007E5326 /* mycase_nav_row */,
+				846B96591DAB33DC007E5326 /* MAKDropDownMenu */,
+				846B962C1DAB33CA007E5326 /* ViewController.h */,
+				846B962D1DAB33CA007E5326 /* ViewController.m */,
+				846B962F1DAB33CA007E5326 /* Main.storyboard */,
+				846B96321DAB33CA007E5326 /* Assets.xcassets */,
+				846B96341DAB33CA007E5326 /* LaunchScreen.storyboard */,
+				846B96371DAB33CA007E5326 /* Info.plist */,
+				846B96261DAB33CA007E5326 /* Supporting Files */,
+			);
+			path = MAKDropDownMenu_Demo;
+			sourceTree = "<group>";
+		};
+		846B96261DAB33CA007E5326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846B96271DAB33CA007E5326 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846B963F1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				846B96401DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.m */,
+				846B96421DAB33CA007E5326 /* Info.plist */,
+			);
+			path = MAKDropDownMenu_DemoTests;
+			sourceTree = "<group>";
+		};
+		846B964A1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846B964B1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.m */,
+				846B964D1DAB33CA007E5326 /* Info.plist */,
+			);
+			path = MAKDropDownMenu_DemoUITests;
+			sourceTree = "<group>";
+		};
+		846B96591DAB33DC007E5326 /* MAKDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				846B965A1DAB33DC007E5326 /* MAKDropDownMenu.h */,
+				846B965B1DAB33DC007E5326 /* MAKDropDownMenu.m */,
+			);
+			path = MAKDropDownMenu;
+			sourceTree = "<group>";
+		};
+		846B965D1DAB34CA007E5326 /* mycase_nav_row */ = {
+			isa = PBXGroup;
+			children = (
+				846B965E1DAB34CA007E5326 /* mycase_nav_triangle_down@2x.png */,
+				846B965F1DAB34CA007E5326 /* mycase_nav_triangle_down@3x.png */,
+				846B96601DAB34CA007E5326 /* mycase_nav_triangle_up@2x.png */,
+				846B96611DAB34CA007E5326 /* mycase_nav_triangle_up@3x.png */,
+			);
+			path = mycase_nav_row;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846B96221DAB33CA007E5326 /* MAKDropDownMenu_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B96501DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_Demo" */;
+			buildPhases = (
+				846B961F1DAB33CA007E5326 /* Sources */,
+				846B96201DAB33CA007E5326 /* Frameworks */,
+				846B96211DAB33CA007E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAKDropDownMenu_Demo;
+			productName = MAKDropDownMenu_Demo;
+			productReference = 846B96231DAB33CA007E5326 /* MAKDropDownMenu_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846B963B1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B96531DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_DemoTests" */;
+			buildPhases = (
+				846B96381DAB33CA007E5326 /* Sources */,
+				846B96391DAB33CA007E5326 /* Frameworks */,
+				846B963A1DAB33CA007E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846B963E1DAB33CA007E5326 /* PBXTargetDependency */,
+			);
+			name = MAKDropDownMenu_DemoTests;
+			productName = MAKDropDownMenu_DemoTests;
+			productReference = 846B963C1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846B96461DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B96561DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_DemoUITests" */;
+			buildPhases = (
+				846B96431DAB33CA007E5326 /* Sources */,
+				846B96441DAB33CA007E5326 /* Frameworks */,
+				846B96451DAB33CA007E5326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846B96491DAB33CA007E5326 /* PBXTargetDependency */,
+			);
+			name = MAKDropDownMenu_DemoUITests;
+			productName = MAKDropDownMenu_DemoUITests;
+			productReference = 846B96471DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846B961B1DAB33CA007E5326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					846B96221DAB33CA007E5326 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					846B963B1DAB33CA007E5326 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846B96221DAB33CA007E5326;
+					};
+					846B96461DAB33CA007E5326 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846B96221DAB33CA007E5326;
+					};
+				};
+			};
+			buildConfigurationList = 846B961E1DAB33CA007E5326 /* Build configuration list for PBXProject "MAKDropDownMenu_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846B961A1DAB33CA007E5326;
+			productRefGroup = 846B96241DAB33CA007E5326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846B96221DAB33CA007E5326 /* MAKDropDownMenu_Demo */,
+				846B963B1DAB33CA007E5326 /* MAKDropDownMenu_DemoTests */,
+				846B96461DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846B96211DAB33CA007E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B96651DAB34CA007E5326 /* mycase_nav_triangle_up@3x.png in Resources */,
+				846B96361DAB33CA007E5326 /* LaunchScreen.storyboard in Resources */,
+				846B96641DAB34CA007E5326 /* mycase_nav_triangle_up@2x.png in Resources */,
+				846B96331DAB33CA007E5326 /* Assets.xcassets in Resources */,
+				846B96631DAB34CA007E5326 /* mycase_nav_triangle_down@3x.png in Resources */,
+				846B96621DAB34CA007E5326 /* mycase_nav_triangle_down@2x.png in Resources */,
+				846B96311DAB33CA007E5326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B963A1DAB33CA007E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B96451DAB33CA007E5326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846B961F1DAB33CA007E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B962E1DAB33CA007E5326 /* ViewController.m in Sources */,
+				846B962B1DAB33CA007E5326 /* AppDelegate.m in Sources */,
+				846B96281DAB33CA007E5326 /* main.m in Sources */,
+				846B965C1DAB33DC007E5326 /* MAKDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B96381DAB33CA007E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B96411DAB33CA007E5326 /* MAKDropDownMenu_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B96431DAB33CA007E5326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B964C1DAB33CA007E5326 /* MAKDropDownMenu_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846B963E1DAB33CA007E5326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846B96221DAB33CA007E5326 /* MAKDropDownMenu_Demo */;
+			targetProxy = 846B963D1DAB33CA007E5326 /* PBXContainerItemProxy */;
+		};
+		846B96491DAB33CA007E5326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846B96221DAB33CA007E5326 /* MAKDropDownMenu_Demo */;
+			targetProxy = 846B96481DAB33CA007E5326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846B962F1DAB33CA007E5326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B96301DAB33CA007E5326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846B96341DAB33CA007E5326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B96351DAB33CA007E5326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846B964E1DAB33CA007E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846B964F1DAB33CA007E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846B96511DAB33CA007E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAKDropDownMenu_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846B96521DAB33CA007E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAKDropDownMenu_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846B96541DAB33CA007E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAKDropDownMenu_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAKDropDownMenu_Demo.app/MAKDropDownMenu_Demo";
+			};
+			name = Debug;
+		};
+		846B96551DAB33CA007E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAKDropDownMenu_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAKDropDownMenu_Demo.app/MAKDropDownMenu_Demo";
+			};
+			name = Release;
+		};
+		846B96571DAB33CA007E5326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAKDropDownMenu_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAKDropDownMenu_Demo;
+			};
+			name = Debug;
+		};
+		846B96581DAB33CA007E5326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAKDropDownMenu_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.MAKDropDownMenu-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAKDropDownMenu_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846B961E1DAB33CA007E5326 /* Build configuration list for PBXProject "MAKDropDownMenu_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B964E1DAB33CA007E5326 /* Debug */,
+				846B964F1DAB33CA007E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846B96501DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B96511DAB33CA007E5326 /* Debug */,
+				846B96521DAB33CA007E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846B96531DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B96541DAB33CA007E5326 /* Debug */,
+				846B96551DAB33CA007E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846B96561DAB33CA007E5326 /* Build configuration list for PBXNativeTarget "MAKDropDownMenu_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B96571DAB33CA007E5326 /* Debug */,
+				846B96581DAB33CA007E5326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846B961B1DAB33CA007E5326 /* Project object */;
+}
